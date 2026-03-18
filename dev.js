@@ -1,13 +1,7 @@
-// ===============================
-// MENSAGEM
-// ===============================
 function mostrarMensagem() {
     alert("Bem-vindo! Você está aprendendo JavaScript 🚀");
 }
 
-// ===============================
-// CONTADOR DE CLIQUES
-// ===============================
 let contador = 0;
 
 function contarCliques() {
@@ -18,9 +12,6 @@ function contarCliques() {
     }
 }
 
-// ===============================
-// MODO ESCURO
-// ===============================
 function alternarTema() {
     document.body.classList.toggle("dark");
 
@@ -31,9 +22,6 @@ function alternarTema() {
     }
 }
 
-// ===============================
-// CARREGAMENTO INICIAL
-// ===============================
 window.onload = function () {
     let temaSalvo = localStorage.getItem("tema");
 
@@ -44,9 +32,7 @@ window.onload = function () {
     carregarNome();
 };
 
-// ===============================
-// FORMULÁRIO
-// ===============================
+
 function enviarFormulario() {
     let nomeEl = document.getElementById("nome");
     let emailEl = document.getElementById("email");
@@ -72,9 +58,6 @@ function enviarFormulario() {
     carregarNome();
 }
 
-// ===============================
-// MOSTRAR NOME
-// ===============================
 function carregarNome() {
     let nome = localStorage.getItem("nomeUsuario");
     let elemento = document.getElementById("usuario");
