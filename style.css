@@ -11,6 +11,13 @@ header {
     text-align: center;
 }
 
+.conteudo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
 nav a {
     color: white;
     margin: 10px;
